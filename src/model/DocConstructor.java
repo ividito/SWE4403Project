@@ -2,12 +2,13 @@
 
 public class DocConstructor{
 
-    private DocBuilder builder = new DocBuilder();
-    public DocConstructor(DocComponent root){
+    private DocBuilder builder = DocBuilder.getInstance();
+    public DocConstructor(){}
+    private DocRoot root;
 
 
-
-
+    public void constructNew(String docName){ //TODO type?
+        docName = docName+=".swe";
+        //etc
     }
-
 }
