@@ -14,7 +14,7 @@ An outline of how different patterns are used will be outlined below
 9. Singleton - the builder is a singleton
 10. Visitor - used for implementing certain functions, such as a spellchecker
 11. (abstract?) Factory - for creating nodes in the document structure
-12.
+12. Chain of responsibility - Used in the implementation of the decorator pattern, to add new UI elements to the JFrame
 13.
 
 Documents are saved in XML format with the .swe extension by default
