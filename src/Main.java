@@ -2,11 +2,12 @@
 
 import flyweight.*;
 import model.*;
+import ui.*;
 
 public class Main{
     public static void main(String args[]){
 
-        Font testFont = new Font("Ariel", PLAIN, 12);
+        EditorFrame frame = new EditorFrame();
 
     }
 }

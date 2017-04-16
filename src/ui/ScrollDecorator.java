@@ -16,7 +16,7 @@ public class ScrollDecorator extends Decorator{
     }
 
     private void addedFunction(){
-        JScrollPane scrollBar = new JScrollPane(target,JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED,JScrollPane.HORIZONTAL_SCROLLBAR_AS_NEEDED);
+        JScrollPane scrollBar = new JScrollPane(target.getArea(),JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED,JScrollPane.HORIZONTAL_SCROLLBAR_AS_NEEDED);
         target.add(scrollBar);
     }
 }

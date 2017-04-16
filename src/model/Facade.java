@@ -17,4 +17,9 @@ public class Facade{
         }
         //save document to docName
     }
+
+    public void update(){
+        display = display.getArea();
+        
+    }
 }
